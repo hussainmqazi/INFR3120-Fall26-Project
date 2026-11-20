@@ -1,0 +1,138 @@
+
+/* Main page */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #181818;
+    color: white;
+}
+
+/* Header */
+header {
+    background-color: #282828;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    background-color: #b22222;
+    color: white;
+    display: inline-block;
+    padding: 15px;
+    border: 2px solid white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h1 {
+    margin: 10px 0 20px 0;
+}
+
+/* Navigation */
+nav {
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: #ff7777;
+}
+
+/* Main content */
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Home section */
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero h2 {
+    font-size: 30px;
+}
+
+.hero p {
+    margin-bottom: 30px;
+}
+
+/* Buttons */
+.button, button {
+    background-color: #b22222;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover, button:hover {
+    background-color: #8b0000;
+}
+
+/* Sections */
+.box {
+    background-color: #282828;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+/* Form */
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+form button {
+    margin-top: 20px;
+}
+
+/* Movie table */
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #666666;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #b22222;
+}
+
+td {
+    background-color: #333333;
+}
+
+/* Footer */
+footer {
+    background-color: #282828;
+    text-align: center;
+    padding: 15px;
+}
+
